@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TARGET</string>
+    <string name="ilagay_ang_bilang_ng_pasahero">Ilagay ang bilang ng pasahero</string>
+    <string name="ilan_ang_discounted">Ilan ang Discounted?</string>
+    <string name="regular_trip">Regular na Biyahe</string>
+    <string name="special_trip">Special na Biyahe</string>
+    <string name="calculate">Kalkulahin</string>
+    <string name="resulta">Resulta:</string>
+    <string name="clear">Burahin</string>
+    <string name="tapusin_ang_biyahe">Tapusin ang Biyahe</string>
+    <string name="income_history">Income History</string>
+    <string name="application_name">Tricycle Arawan Budget System</string>
+    <string name="app_tagline">Your Ultimate Companion for Tricycle Drivers</string>
+    <string name="welcome_to_target">Welcome to TARGET</string>
+    <string name="id_history">ID</string>
+    <string name="date_history">DATE</string>
+    <string name="income_hstry">INCOME</string>
+
+
+</resources>

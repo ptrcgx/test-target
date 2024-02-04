@@ -1,0 +1,77 @@
+<LinearLayout android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <EditText
+            android:id="@+id/editPasahero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/ilagay_ang_bilang_ng_pasahero"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editDiscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/ilan_ang_discounted"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <RadioGroup
+            android:id="@+id/tripType"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/radioRegular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/regular_trip" />
+
+            <RadioButton
+                android:id="@+id/radioSpecial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/special_trip" />
+
+            <Button
+                android:id="@+id/buttonCalculate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calculate" />
+
+            <Button
+                android:id="@+id/buttonReset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clear" />
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tapusin_ang_biyahe" />
+
+            <TextView
+                android:id="@+id/viewResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/resulta"
+                android:textAlignment="center"
+                android:textSize="36sp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
